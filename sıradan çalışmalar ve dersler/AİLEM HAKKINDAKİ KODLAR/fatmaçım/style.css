@@ -1,0 +1,56 @@
+body{
+background: url(masaüstü-arka-plan-5-1024x576.jpg);
+margin: 0;
+padding: 0;
+background-size: cover;
+}
+.box{
+width: 450px;
+background: #6b5858;
+text-align: center;
+margin: auto;
+color: aliceblue;
+font-family: sans-serif;
+margin-top: 3%;
+padding: 40px;
+}
+.box img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+cursor: pointer;
+transition: 0.5s;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+font-size: 20px;
+letter-spacing: 4px;
+font-weight: 100px;
+}
+.box h5{
+font-weight: 100px;
+letter-spacing: 4px;
+font-size: 20px;
+}
+.box p{
+text-align: justify;
+}
+ul{
+margin: 0;
+padding: 0;
+}
+.box li a{
+font-size: 60px;
+color: aliceblue;
+transition: all ease-in-out 250ms ;
+}
+.box li{
+    display: inline-block;
+margin: 6px;
+list-style: none;
+}
+.box li a:hover{
+color: #6b5858;
+}

@@ -1,0 +1,47 @@
+body{
+    height: 200vh;
+}
+
+#bidsInfo{
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+#placeBid{
+    width: 20%;
+    height: 50px;
+    background-color: rgb(28, 190, 99);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#bidsInfo h5{
+    font-size: 100%;
+}
+
+#placeBid h4{
+    font-size: 100%;
+}
+th{
+        
+    border-right: 1px solid gray;
+   border-bottom: 1px solid gray;
+   border-left: 1px solid gray;    
+}
+
+tr{
+   border: 1px solid gray;
+
+} 

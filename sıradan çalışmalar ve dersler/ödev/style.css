@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    width: 20%;
+    max-width: 200px;
+    min-width: 150px;
+    background-image: radial-gradient( circle 957px at 8.7% 50.5%,  rgba(246,191,13,1) 0%, rgba(249,47,47,1) 90% );
+   
+    position: relative;
+    top: 0;
+    padding-top: 3vh;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+margin-bottom: 30px;
+background-image: radial-gradient( circle 1158px at 6.4% 48.8%,  rgba(195,241,245,1) 0%, rgba(255,255,255,1) 90.2% );
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+color: rgb(93, 91, 91);
+    
+}
+.butonlar{
+    height: 230px;
+    width: 130px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.kayit{
+    width: 16%;
+    max-width: 200px;
+    min-width: 150px;
+    position: fixed;
+    border-radius: 1px;
+    border: none;
+    bottom: 2px;
+    
+    height: 30px;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-image: radial-gradient( circle 957px at 82.7% 10.5%,  rgba(246,191,13,1) 0%, rgba(249,87,47,1) 90% );
+}
+.kayit i{
+    margin-left: 10px;
+    
+}
+.container{
+   display: flex;
+}
+#right{
+    width: 80%;
+    /* height: 100vh; */
+    background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
+}
+.reklam{
+    width: 55vw;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 750px;
+}
+.reklam img{
+    border-radius: 10px;
+    width: 55vw;
+     max-width: 750px;
+     max-height: 130px;
+}
+
+
+form{
+    
+width: 200px;   
+background-image: linear-gradient( 178.7deg,  rgba(251,225,14,0.57) 1%, rgba(255,253,220,1) 88.2% );
+text-align: center;
+height: 350px;
+display: inline-block;
+margin: 20px;
+border-radius: 5px;
+
+}
+form img{
+    
+    width: 180px;
+    border-radius: 20px;
+    height: 200px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(93, 91, 91);
+    margin-bottom: 10px;
+}
+form div{
+    display: block;
+    font-size: 17px;
+    cursor: pointer;
+    width:100px ;
+    background-image: linear-gradient( 90.5deg,  rgba(255,207,139,0.50) 1.1%, rgba(255,207,139,1) 81.3% );
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    font-weight: 520;
+    color: rgb(93, 91, 91);
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form div:hover{
+    background-image: linear-gradient( 90.5deg,  rgba(355,907,139,0.50) 1.1%, rgba(255,207,939,1) 81.3% );
+    border: 1px solid rgb(93, 91, 91);;
+}
+#lastright{
+    min-width: 150px;
+    width: 25%;
+    
+    background-image: radial-gradient( circle 489px at 49.3% 46.6%,  rgba(255,214,126,1) 0%, rgba(253,200,0,1) 100.2% );
+}
+.fa-basket-shopping{
+    font-size: 30px;
+    width: 140px;
+   margin-top: 20px;
+    color: rgb(236, 107, 26);
+    margin: auto;
+}
+.stil{
+    cursor: pointer;
+}
+.sepeteGir img{
+    width: 100px;
+    border-radius: 10px;
+    height: 120px;
+    
+}
+.sepeteGir{
+    width: 100px;   
+    background-image: linear-gradient( 178.7deg,  rgba(251,225,14,0.57) 1%, rgba(255,253,220,1) 88.2% );
+    text-align: center;
+    height: 170px;
+   
+    margin: 20px;
+    border-radius: 5px;
+    float: right;
+
+}
+.sepeteGir h2{
+    font-size: 10px;
+}
+.sepeteGir p{
+    font-size: 15px;
+    width: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(93, 91, 91);
+    cursor: pointer;
+    margin: auto;
+}
+span{
+    font-size: 19px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(93, 91, 91);
+}
+.tp,#ft{
+    
+    background-image: radial-gradient( circle 957px at 82.7% 10.5%,  rgba(246,191,13,1) 0%, rgba(249,87,47,1) 90% );
+    height: 20px;
+    text-align: center;
+    
+    font-family: sans-serif;
+    color: rgb(93, 91, 91);
+    font-weight: 700;
+
+}
+.alt{
+    min-width: 150px;
+    width: 20%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.anasayfa{
+    height: 100vh;
+  
+  
+}

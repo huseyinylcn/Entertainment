@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button onclick="but()">ekle</button>
+    <ul>
+        <!-- <li>hüseyin</li> -->
+    </ul>
+    <script>
+function but(){
+    var inp =document.getElementById("inp");
+    var yeniNOT=document.createElement("li");//creatElement ile liyi oluşturdum ve bunun adını yeniNOT koydum 
+    yeniNOT.innerHTML=inp.value;// burada inputun içine yazdıklarımı yeni nota aktardım 
+
+    var gorevler=document.getElementsByTagName("ul")[0];
+    gorevler.insertBefore(yeniNOT,gorevler.lastChild)//burada yukarıda oluşturduğum liyi yeni yeniNOtu ul nin iiçine YAni görevlerin içine attım  bunu insert before ile yaotım lastchild ilede son eleman olarak tanımladım
+
+}
+
+    </script>
+</body>
+</html>

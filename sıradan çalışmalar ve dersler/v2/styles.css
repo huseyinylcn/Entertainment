@@ -1,0 +1,18 @@
+#bg{
+    margin-top: -80px;
+    height: 900px;
+    background: url('./img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.kaydir{
+    margin-left: 20vw;
+}
+
+/* .navbar{
+    opacity: 0;
+} */
+.accordion{
+    margin: auto;
+    margin-top: 300px;
+    text-align: center;
+}
